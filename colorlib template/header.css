@@ -1,0 +1,237 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* general style for the head */
+.main-header{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 109;
+    position: fixed;
+    height: fit-content;
+    box-shadow: 5px 10px 10px rgba(213, 213, 213, 0.936);
+ background-color: #fff;  
+}
+.header-top{
+    padding: 0px 50px;
+    border-bottom: 1px solid #f0f1f2;
+}
+.header-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.left-content{
+    display: flex;
+}
+.phone{
+    color: #687693;
+    display: inline-block;
+    padding-right: 18px;
+    border-right: 1px solid #687693;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+}
+.email{
+    margin-left: 18px;
+}
+.socia-icons{
+    display: flex;
+    list-style: none;
+
+    margin-left: -40px;
+}
+.socia-icons li{
+    margin-left: 25px;
+}
+.socia-icons a{
+    
+    color: #687693;
+    
+
+}
+.socia-icons li:hover{
+    transform: rotateY(180deg);
+    transition: 0.6s ease-in-out;
+}
+.socia-icons a:hover{
+    color: rgb(9, 204, 127);
+    transform: rotateY(360deg);
+    transition: 0.6s ease-in-out;
+}
+
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.select-items{
+    
+    
+    padding-right: 20px;
+} 
+#select1{
+    border: none;
+    width: 80px;
+    font-size: 16px;
+    color: #687693;
+    cursor: pointer;
+}
+.Subscribe-now{
+   
+    border-left: 1px solid #444;
+    padding-left: 20px;
+}
+.Subscribe-now li{
+    list-style: none;
+    
+}
+.Subscribe-now a{
+    text-decoration: none;
+    color: #687693;
+    font-size: 16px;
+}
+.header-buttom{
+   margin-bottom: 0;
+    top: 0;
+    position: sticky;
+    padding: 20px 50px;
+
+}
+.buttom{
+    padding: 0;
+}
+.buttom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    
+}
+/* .navigation li{
+    justify-content: space-between;
+} */
+
+.navigation ul{
+    
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.navigation a{
+    
+   align-items: center;
+     margin-left: 40px;
+     text-decoration: none;
+     color:#072366;
+     font-size: 18px;
+     align-items: center;
+     
+}
+.navigation a:hover{
+    color: rgb(9, 204, 127);
+}
+.btn{
+    align-content: center;
+
+    
+}
+.btn button{
+    
+    padding: 20px 50px;
+    background-color: rgb(9, 204, 127);
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+
+}
+.btn button:hover{
+    background-color: green;
+    transition: 3s linear;
+
+}
+
+.mobile-menu{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 90%;
+    transform: translate(-110%); 
+}
+.menu-container{
+    /* padding: 25px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    background: #4c4c4c
+}
+.toggle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu-toggle i{
+    margin-left: 3px;
+}
+.menu-toggle{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.menu-navigation{
+    margin-top: 20px;
+    padding-left: 10px;
+    /* padding-right: 20px; */
+    margin-right: 10px;
+   margin-bottom: 0;
+    display: none;
+}
+.menu-navigation ul{
+    padding: 0;
+}
+.show-navigation{
+    display: block;
+}
+.menu-navigation li{
+    list-style: none;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.menu-navigation a{
+    color: #fff;
+    padding: 5px;
+    /* width: 100%; */
+    display: block;
+}
+/* .menu-navigation li:hover{
+    background-color: #fff;
+} */
+.menu-navigation a:hover{
+    background-color: rgb(223, 223, 223);
+    color: black;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+
+}
+
