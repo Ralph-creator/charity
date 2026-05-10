@@ -16,3 +16,9 @@ a{
     text-decoration: none;
     text-transform: capitalize;
 }
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
